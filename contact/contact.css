@@ -1,0 +1,100 @@
+.container { width: 1100px;margin: 0 auto; }
+#all-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.contact-location,.contact-number,.contact-email{ display: flex; }
+.contact-icon-1 i,.contact-icon-2 i,.contact-icon-3 i{
+    font-size: 20px;
+    color: #002347;
+    margin-right: 20px;
+}
+.contact-info h2{
+    color: #002347;
+    font: 600 16px arial;
+    margin-bottom: 8px;
+}
+.contact-info p{
+    color: #7b838a;
+    font: 500 14px arial;
+    margin-bottom: 25px;
+}
+.contact-inputs input,.contact-msj input{
+    display: block;
+    width: 380px;
+    padding: 10px 0 10px 10px;
+    outline: none;
+    border: 1px solid #8080804b;
+}
+.contact-inputs input[type="email"]{ margin: 10px 0; }
+.contact-msj input{ padding: 10px 0 110px 10px;}
+::placeholder {
+    color: #002347;
+    text-transform: capitalize;
+    font: 500 13px arial;
+}
+.contact-btn{ float: right; }
+.contact-btn button{
+    background-color: #fdc632;
+    color: #002347;
+    font: 600 13px arial;
+    padding: 16px 50px;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s;
+}
+.contact-btn button:hover { background-color: #002347; color: #fdc632; }
+.footer-bg-color {margin-top: 100px ; background-color: #002347; padding: 100px 0;}
+#all-footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links h2,.footer-subscribe h2{
+    font: 600 20px arial;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.footer-links li,.footer-subscribe p{ margin-bottom: 20px; }
+.footer-links a,.footer-subscribe p{
+    font: 500 16px arial;
+    color: #7b838a;
+    transition: .4s;
+}
+.footer-links a:hover { color: #fff; }
+.footer-subscribe input{
+    width: 250px;
+    padding: 12px 0 12px 10px;
+    border: 0;
+    outline: none;
+    background-color: #334f6c;
+}
+::placeholder { font: 500 14px arial; text-transform: capitalize; color: #7b838a; }
+.footer-subscribe button{
+    background-color: #fdc632;
+    color: #002347;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 20px;
+    font: 600 13px arial;
+}
+#all-footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.footer-copyRight p{
+    color: #fff;
+    font: 500 16px arial;
+}
+.footer-icons a{
+    background-color: #334f6c;
+    color: #cccccc;
+    padding: 12px;
+    transition: .4s;
+}
+.footer-icons a:hover { background-color: #fdc632; color: #002347; } 
